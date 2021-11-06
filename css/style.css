@@ -1,0 +1,55 @@
+body {
+  background-color: rgb(241 241 241);
+}
+
+.top-mobile {
+  height: 60px;
+  box-shadow: 5px 0 5px 5px #dcdcdc;
+}
+
+.menu-container .logo {
+  height: 84px;
+}
+
+.section-title {
+  font-size: 22px;
+  margin-top: 30px;
+  margin-bottom: 10px;
+}
+
+.card-img {
+  height: 150px;
+  object-fit: cover;
+}
+
+.card-title {
+  font-size: 18px;
+  margin-bottom: 20px;
+}
+
+.card-rating {
+  font-size: 10px;
+  color: gold;
+}
+
+.card-original-value,
+.card-discounted-value,
+.card-installments {
+  margin: 0;
+}
+
+.card-original-value {
+  font-size: 16px;
+  color: gray;
+  font-weight: bold;
+  text-decoration: line-through;
+}
+
+.card-discounted-value {
+  font-size: 28px;
+  font-weight: bold;
+}
+
+.card-installments {
+  color: gray;
+}
