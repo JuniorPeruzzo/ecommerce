@@ -1,0 +1,21 @@
+body {
+  background-color: rgb(241 241 241);
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+.top-mobile {
+  height: 60px;
+  box-shadow: 5px 0 5px 5px #dcdcdc;
+}
+
+.menu-container .logo {
+  height: 84px;
+}
+
+.searchbox i {
+  margin-left: -30px;
+}

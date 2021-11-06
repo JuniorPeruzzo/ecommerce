@@ -1,20 +1,11 @@
-body {
-  background-color: rgb(241 241 241);
-}
-
-.top-mobile {
-  height: 60px;
-  box-shadow: 5px 0 5px 5px #dcdcdc;
-}
-
-.menu-container .logo {
-  height: 84px;
-}
-
 .section-title {
   font-size: 22px;
   margin-top: 30px;
   margin-bottom: 10px;
+}
+
+.card:hover {
+  box-shadow: 0 0 10px 5px #d6d6d6;
 }
 
 .card-img {
@@ -25,6 +16,7 @@ body {
 .card-title {
   font-size: 18px;
   margin-bottom: 20px;
+  color: rgb(63, 63, 63);
 }
 
 .card-rating {
@@ -48,6 +40,7 @@ body {
 .card-discounted-value {
   font-size: 28px;
   font-weight: bold;
+  color: rgb(63, 63, 63);
 }
 
 .card-installments {
