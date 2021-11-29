@@ -4,7 +4,7 @@ body {
 
 a {
   text-decoration: none;
-  color: inherit;
+  color: rgb(78, 78, 78);
 }
 
 .top-mobile {
@@ -16,6 +16,48 @@ a {
   height: 84px;
 }
 
-.searchbox i {
+.search-box i {
   margin-left: -30px;
+}
+
+.menu a {
+  margin-right: 15px;
+}
+
+.menu a:hover {
+  color: blue;
+}
+
+.btn.btn-primary,
+.btn.btn-primary:focus,
+.btn.btn-primary:active {
+  color: white;
+  background-color: black;
+  border: none;
+  box-shadow: none;
+  outline: none;
+}
+
+.btn.btn-primary:hover {
+  background-color: rgb(66, 66, 66);
+}
+
+.menu-mobile .close {
+  position: absolute;
+  top: 15px;
+  right: 15px;
+}
+
+.profile {
+  text-align: center;
+}
+
+.profile .profile-picture {
+  height: 150px;
+  margin-bottom: 20px;
+}
+
+.profile .profile-title {
+  font-weight: bold;
+  font-size: 22px;
 }

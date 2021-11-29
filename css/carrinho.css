@@ -1,0 +1,58 @@
+main.container {
+  box-shadow: 0 0 8px 3px #e4e4e4;
+}
+
+main > .title {
+  font-size: 28px;
+}
+
+.products td > div {
+  height: 120px;
+}
+
+.product-image {
+  height: 120px;
+}
+
+.product-quantity {
+  width: 100px;
+}
+
+.product-rating {
+  font-size: 14px;
+  color: gold;
+}
+
+.product-original-value,
+.product-discounted-value,
+.product-installments {
+  margin: 0;
+}
+
+.product-original-value {
+  font-size: 14px;
+  color: gray;
+  font-weight: bold;
+  text-decoration: line-through;
+}
+
+.product-discounted-value {
+  font-size: 24px;
+  font-weight: bold;
+  color: rgb(78, 78, 78);
+}
+
+.product-installments {
+  font-size: 14px;
+  color: gray;
+}
+
+.product-remove {
+  color: rgb(78, 78, 78);
+  font-size: 20px;
+}
+
+.product-remove:hover {
+  color: red;
+  cursor: pointer;
+}
